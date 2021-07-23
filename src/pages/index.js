@@ -21,7 +21,7 @@ const IndexPage = () => (
     <h1 className={"body__motto"}>no cop city. no hollywood dystopia.</h1>
     <br/>
     <a className={"button button-primary button-large button-wide"}
-            href={"https://actionnetwork.org/fundraising/forest-justice-defense-fund"}>
+            href={"https://opencollective.com/forest-justice-defense-fund"}>
       Donate to Defend the Forest
     </a>
     <br/>
