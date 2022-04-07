@@ -20,6 +20,12 @@ const IndexPage = () => (
     <br/>
     <h1 className={"body__motto"}>no cop city. no hollywood dystopia.</h1>
     <br/>
+    <p>Week of Action May 8-15! Go to <a href={"https://teamup.com/kso8mpnaaeb4qbek1y"}>this link</a> to add your event to the calender.</p>
+    <p>
+      <iframe title="Teamup calendar for Defend the Atlanta Forest events"
+              src="https://teamup.com/ksydou1ii8r6kdiun3?showProfileAndInfo=0&showSidepanel=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1"
+              width="100%" height="800px" style={{border: '1px solid #cccccc'}} frameBorder="1"></iframe>
+    </p>
     <a className={"button button-primary button-large button-wide"}
             href={"https://opencollective.com/forest-justice-defense-fund"}>
       Donate to Defend the Forest
@@ -97,11 +103,6 @@ const IndexPage = () => (
     </a>
     <br/>
     <br/>
-    <p>
-      <iframe title="Teamup calendar for Defend the Atlanta Forest events"
-              src="https://teamup.com/ksydou1ii8r6kdiun3?showProfileAndInfo=0&showSidepanel=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1"
-              width="100%" height="800px" style={{border: '1px solid #cccccc'}} frameBorder="1"></iframe>
-    </p>
     <Link
       to="/es"
       className={"button button-primary button-large"}
