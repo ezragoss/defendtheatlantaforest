@@ -13,11 +13,12 @@ const SpanishPage = () => (
     <br/>
     <h1 className={"body__motto"}>no cop city. no hollywood dystopia.</h1>
     <br/>
-    <p>Semana de action mayo 8-15! Use <a href={"https://teamup.com/kso8mpnaaeb4qbek1y"}>este enlace</a> para agregat su evento al calendario</p>
+    <p>Semana de action mayo 8-15! Use <a href={"https://teamup.com/kso8mpnaaeb4qbek1y"}>este enlace</a> para agregar su evento al calendario</p>
     <p>
-      <iframe title="Teamup calendar for Defend the Atlanta Forest events"
-              src="https://teamup.com/ksydou1ii8r6kdiun3?showProfileAndInfo=0&showSidepanel=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1"
-              width="100%" height="800px" style={{border: '1px solid #cccccc'}} frameBorder="1"></iframe>
+      <iframe 
+        src="https://teamup.com/kso8mpnaaeb4qbek1y?date=2022-05-08&tz=America/New_York&showLogo=0&showProfileAndInfo=0&showSidepanel=0&disableSidepanel=1&showViewSelector=1&showMenu=1&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" 
+        width="100%" height="800px" style={{border: "1px solid #cccccc"}} loading="lazy" frameBorder="1">
+      </iframe>
     </p>
     <a className={"button button-primary button-large button-wide"}
        href={"https://opencollective.com/forest-justice-defense-fund"}>
